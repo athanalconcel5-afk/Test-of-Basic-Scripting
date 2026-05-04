@@ -1,0 +1,11 @@
+// Your custom logic
+const myName = "Juan";
+
+const greet = (name) => {
+  return `Hello, ${name}!`;
+};
+
+const classmates = ["Ana", "Ben", "Carlo"];
+
+// This will output the array to your Chrome console
+console.log(classmates.map(name => greet(name)));
